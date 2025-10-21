@@ -1,0 +1,195 @@
+{
+  "global": {
+    "companyName": "ASHES",
+    "tagline": "The snapshot of our Identity",
+    "currentYear": 2024,
+    "fallbackLogo": "/default-logo.png",
+    "colorSchemes": [
+      {
+        "name": "purple",
+        "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "overlay": "bg-black/20",
+        "textClass": "text-white"
+      },
+      {
+        "name": "white",
+        "background": "white",
+        "overlay": "bg-black/15",
+        "textClass": "text-black"
+      },
+      {
+        "name": "blue",
+        "background": "#00aaff",
+        "overlay": "bg-black/10",
+        "textClass": "text-white"
+      }
+    ]
+  },
+  "slides": {
+    "cover": {
+      "logoUrl": "https://img.freepik.com/free-vector/colorful-letter-gradient-logo-design_474888-2309.jpg",
+      "fallbackLogo": "/default-logo.png",
+      "mainTitle": "Brand Guidelines",
+      "companyName": "ASHES",
+      "subtitle": "The snapshot of our Identity",
+      "currentYear": 2024
+    },
+    "brandStory": {
+      "title": "Brand Story",
+      "mission": {
+        "icon": "🎯",
+        "title": "Our Mission",
+        "description": "To ignite transformative change through innovative solutions that empower growth and renewal."
+      },
+      "vision": {
+        "icon": "🔭",
+        "title": "Our Vision",
+        "description": "A world where every ending becomes a new beginning, built on resilience and innovation."
+      },
+      "story": {
+        "title": "Our Story",
+        "description": "ASHES was born from the understanding that true innovation emerges from remnants. Like a phoenix rising, we believe every challenge holds opportunity for new beginnings."
+      }
+    },
+    "brandValues": {
+      "title": "Brand Values",
+      "description": "The core principles that guide everything we do",
+      "values": {
+        "innovation": {
+          "icon": "💡",
+          "title": "Innovation",
+          "description": "We constantly push boundaries and embrace change to create breakthrough solutions."
+        },
+        "resilience": {
+          "icon": "🔥",
+          "title": "Resilience",
+          "description": "We transform challenges into opportunities, rising stronger from every setback."
+        },
+        "authenticity": {
+          "icon": "✨",
+          "title": "Authenticity",
+          "description": "We stay true to our vision while adapting to the needs of those we serve."
+        }
+      }
+    },
+    "colorPalette": {
+      "title": "Color Palette",
+      "description": "Our carefully curated colors that define our visual identity",
+      "colors": {
+        "primary": {
+          "name": "Phoenix Purple",
+          "hex": "#764ba2",
+          "rgb": "rgb(118, 75, 162)",
+          "usage": "Primary brand actions, CTAs, and key highlights",
+          "applications": ["Buttons", "Links", "Active states"]
+        },
+        "secondary": {
+          "name": "Ember Blue",
+          "hex": "#667eea",
+          "rgb": "rgb(102, 126, 234)",
+          "usage": "Secondary elements, accents, and supporting visuals",
+          "applications": ["Hover states", "Accents", "Borders"]
+        },
+        "accent": {
+          "name": "Ash Gray",
+          "hex": "#6b7280",
+          "rgb": "rgb(107, 114, 128)",
+          "usage": "Body text, subtle backgrounds, and neutral elements",
+          "applications": ["Text", "Dividers", "Backgrounds"]
+        }
+      }
+    },
+    "typography": {
+      "title": "Typography",
+      "description": "Clear, modern fonts that convey professionalism and innovation",
+      "fonts": {
+        "primary": {
+          "name": "Inter",
+          "fallback": "system-ui, -apple-system, sans-serif",
+          "usage": "Headings, UI elements, and emphasis",
+          "weights": [
+            { "weight": 400, "label": "Regular" },
+            { "weight": 600, "label": "Semibold" },
+            { "weight": 700, "label": "Bold" }
+          ]
+        },
+        "secondary": {
+          "name": "SF Pro Display",
+          "fallback": "-apple-system, BlinkMacSystemFont, sans-serif",
+          "usage": "Body text, paragraphs, and long-form content",
+          "weights": [
+            { "weight": 300, "label": "Light" },
+            { "weight": 400, "label": "Regular" },
+            { "weight": 500, "label": "Medium" }
+          ]
+        }
+      },
+      "sizing": {
+        "h1": "3.5rem (56px)",
+        "h2": "2.5rem (40px)",
+        "h3": "1.875rem (30px)",
+        "body": "1rem (16px)",
+        "small": "0.875rem (14px)"
+      }
+    },
+    "logoUsage": {
+      "title": "Logo Usage Guidelines",
+      "description": "Standards for proper logo implementation across all media",
+      "rules": [
+        {
+          "rule": "Minimum Size",
+          "detail": "48px height minimum for digital, 25mm for print"
+        },
+        {
+          "rule": "Clear Space",
+          "detail": "Maintain clear space equal to logo height on all sides"
+        },
+        {
+          "rule": "Proportions",
+          "detail": "Do not distort, stretch, or rotate the logo"
+        },
+        {
+          "rule": "File Formats",
+          "detail": "Use SVG for web, PNG for digital, AI/EPS for print"
+        },
+        {
+          "rule": "Background",
+          "detail": "Ensure sufficient contrast with background colors"
+        },
+        {
+          "rule": "Color Variations",
+          "detail": "Use full color, monochrome, or inverted as specified"
+        }
+      ]
+    },
+    "colorThemes": {
+      "title": "Color Themes in Action",
+      "description": "See how our palette comes together in real applications",
+      "darkTheme": {
+        "title": "Dark Theme",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=400&fit=crop",
+        "fallbackImage": "https://via.placeholder.com/600x400/667eea/ffffff?text=Dark+Theme",
+        "colors": ["#764ba2", "#667eea", "#ffffff"],
+        "description": "Rich gradients and vibrant accents on dark backgrounds for high contrast and modern aesthetics"
+      },
+      "lightTheme": {
+        "title": "Light Theme",
+        "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600&h=400&fit=crop",
+        "fallbackImage": "https://via.placeholder.com/600x400/f3f4f6/1f2937?text=Light+Theme",
+        "colors": ["#764ba2", "#667eea", "#1f2937"],
+        "description": "Clean aesthetics with subtle shadows and depth, optimized for readability and professional presentation"
+      }
+    },
+    "imagery": {
+      "title": "Imagery Style",
+      "description": "Visual guidelines for photography and illustrations",
+      "guidelines": [
+        "Use high-resolution images (minimum 1200px width)",
+        "Maintain consistent color grading and tone",
+        "Emphasize authenticity and human moments",
+        "Avoid clichéd stock photography",
+        "Ensure diverse representation"
+      ]
+    }
+  }
+}
